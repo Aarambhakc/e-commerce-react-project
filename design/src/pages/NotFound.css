@@ -1,0 +1,106 @@
+.notfound-page{
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:2rem;
+
+    background:#faf8f3;
+}
+
+.notfound-tag{
+    color:#b89a60;
+
+    text-transform:uppercase;
+    letter-spacing:5px;
+
+    margin-bottom:1rem;
+}
+
+.notfound-page h1{
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:5rem;
+    font-weight:400;
+
+    line-height:1.1;
+
+    margin-bottom:2rem;
+
+    color:#111;
+}
+
+.notfound-text{
+    max-width:520px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    margin-bottom:3rem;
+}
+
+.notfound-btn{
+    text-decoration:none;
+
+    padding:16px 42px;
+
+    border:1px solid #111;
+
+    color:#111;
+
+    text-transform:uppercase;
+    letter-spacing:3px;
+
+    transition:.35s;
+}
+
+.notfound-btn:hover{
+    background:#b89a60;
+    border-color:#b89a60;
+    color:#fff;
+}
+
+body.dark .notfound-page{
+    background:#111;
+}
+
+body.dark .notfound-page h1{
+    color:#fff;
+}
+
+body.dark .notfound-text{
+    color:#cfcfcf;
+}
+
+body.dark .notfound-btn{
+    color:#fff;
+    border-color:#fff;
+}
+
+body.dark .notfound-btn:hover{
+    background:#b89a60;
+    border-color:#b89a60;
+}
+
+@media(max-width:768px){
+
+.notfound-page h1{
+    font-size:3rem;
+}
+
+.notfound-text{
+    font-size:.95rem;
+}
+
+.notfound-btn{
+    width:100%;
+    max-width:260px;
+}
+
+}

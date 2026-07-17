@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+body.dark .navbar {
+  background: #1e1e1e;
+}
+
+body.dark a {
+  color: white;
+}
+
+body.dark .product-card {
+  background: #222;
+  color: white;
+}
+
+body.dark button {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark input,
+body.dark select {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f7f5f0;
+  color: #111;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+body {
+  font-family:
+    "Inter",
+    sans-serif;
+}

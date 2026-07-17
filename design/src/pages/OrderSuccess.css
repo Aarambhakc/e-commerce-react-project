@@ -1,0 +1,244 @@
+/* ===================================================
+   ORDER SUCCESS PAGE
+=================================================== */
+
+.success-page {
+  min-height: calc(100vh - 90px);
+  padding: 5rem 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f8f6f2;
+}
+
+.success-card {
+  width: 100%;
+  max-width: 760px;
+
+  background: #ffffff;
+
+  border: 1px solid #ece8df;
+  border-radius: 18px;
+
+  padding: 5rem 4rem;
+
+  text-align: center;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+
+  transition: all .35s ease;
+}
+
+.success-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 70px rgba(0,0,0,.08);
+}
+
+/* ==========================
+   ICON
+========================== */
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+
+  margin: 0 auto 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+      135deg,
+      #c6a76a,
+      #b08a4d
+  );
+
+  color: white;
+
+  font-size: 2.5rem;
+  font-weight: 600;
+
+  box-shadow: 0 12px 30px rgba(184,154,96,.25);
+}
+
+/* ==========================
+   TYPOGRAPHY
+========================== */
+
+.success-tag {
+  color: #b89a60;
+
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  font-size: .85rem;
+
+  margin-bottom: 1rem;
+}
+
+.success-card h1 {
+  font-size: clamp(2.2rem,4vw,3.4rem);
+  font-weight: 300;
+
+  line-height: 1.2;
+
+  color: #111;
+
+  margin-bottom: 1.5rem;
+}
+
+.success-text {
+  max-width: 560px;
+
+  margin: auto;
+
+  color: #666;
+
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.success-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+
+  flex-wrap: wrap;
+
+  margin-top: 3rem;
+}
+
+.primary-btn,
+.secondary-btn {
+  min-width: 220px;
+
+  padding: 1rem 2.5rem;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  font-size: .85rem;
+  font-weight: 600;
+
+  border-radius: 8px;
+
+  transition: all .3s ease;
+}
+
+.primary-btn {
+  background: #111;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #b89a60;
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #111;
+
+  border: 1px solid #d6d0c5;
+}
+
+.secondary-btn:hover {
+  background: #111;
+  color: white;
+  border-color: #111;
+  transform: translateY(-2px);
+}
+
+/* ==========================
+   DARK MODE
+========================== */
+
+body.dark .success-page {
+  background: #101010;
+}
+
+body.dark .success-card {
+  background: #181818;
+  border-color: #2d2d2d;
+
+  box-shadow: 0 25px 60px rgba(255,255,255,.03);
+}
+
+body.dark .success-card h1 {
+  color: white;
+}
+
+body.dark .success-text {
+  color: #bdbdbd;
+}
+
+body.dark .success-icon {
+  background: linear-gradient(
+      135deg,
+      #c6a76a,
+      #a97d3d
+  );
+
+  color: white;
+}
+
+body.dark .primary-btn {
+  background: white;
+  color: #111;
+}
+
+body.dark .primary-btn:hover {
+  background: #b89a60;
+  color: white;
+}
+
+body.dark .secondary-btn {
+  color: white;
+  border-color: #555;
+}
+
+body.dark .secondary-btn:hover {
+  background: white;
+  color: #111;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:768px){
+
+  .success-page{
+    padding:3rem 1rem;
+  }
+
+  .success-card{
+    padding:3rem 2rem;
+  }
+
+  .success-buttons{
+    flex-direction:column;
+  }
+
+  .primary-btn,
+  .secondary-btn{
+    width:100%;
+  }
+
+  .success-icon{
+    width:80px;
+    height:80px;
+    font-size:2rem;
+  }
+}

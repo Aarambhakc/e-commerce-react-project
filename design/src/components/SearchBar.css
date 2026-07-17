@@ -1,0 +1,222 @@
+/* ==========================================
+   SEARCH BAR
+========================================== */
+
+.search-bar{
+
+position:relative;
+
+width:100%;
+max-width:520px;
+}
+
+.search-bar input{
+
+width:100%;
+
+padding:1rem 1.25rem 1rem 3.2rem;
+
+font-size:.95rem;
+
+background:white;
+
+border:1px solid #ddd;
+
+border-radius:999px;
+
+outline:none;
+
+transition:.35s;
+}
+
+.search-bar input:focus{
+
+border-color:#c8a96a;
+
+box-shadow:0 0 0 4px rgba(200,169,106,.12);
+}
+
+.search-bar input::placeholder{
+
+color:#999;
+
+letter-spacing:.5px;
+}
+
+/* ==========================================
+   ICON
+========================================== */
+
+.search-icon{
+
+position:absolute;
+
+right:4rem;
+top:50%;
+
+transform:translateY(-50%);
+
+font-size:.9rem;
+
+color:#999;
+}
+
+/* ==========================================
+   DROPDOWN
+========================================== */
+
+.suggestions{
+
+position:absolute;
+
+top:calc(100% + 12px);
+
+left:0;
+
+width:100%;
+
+background:white;
+
+border-radius:18px;
+
+overflow:hidden;
+
+border:1px solid rgba(0,0,0,.06);
+
+box-shadow:
+0 20px 45px rgba(0,0,0,.08);
+
+z-index:999;
+}
+
+/* ==========================================
+   ITEM
+========================================== */
+
+.suggestion{
+
+display:flex;
+
+align-items:center;
+
+gap:1rem;
+
+padding:1rem 1.25rem;
+
+cursor:pointer;
+
+transition:.3s;
+}
+
+.suggestion:hover{
+
+background:#faf8f3;
+}
+
+.suggestion img{
+
+width:58px;
+height:58px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+background:#f5f5f5;
+}
+
+.suggestion-info{
+
+display:flex;
+flex-direction:column;
+}
+
+.suggestion-info h4{
+
+font-size:.9rem;
+
+font-weight:500;
+
+color:#111;
+
+margin-bottom:.3rem;
+
+line-height:1.4;
+}
+
+.suggestion-info p{
+
+font-size:.85rem;
+
+color:#b89a60;
+
+letter-spacing:1px;
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .search-bar input{
+
+background:#1b1b1b;
+
+border-color:#333;
+
+color:white;
+}
+
+body.dark .search-bar input::placeholder{
+
+color:#999;
+}
+
+body.dark .search-icon{
+
+color:#888;
+}
+
+body.dark .suggestions{
+
+background:#181818;
+
+border-color:#333;
+}
+
+body.dark .suggestion:hover{
+
+background:#242424;
+}
+
+body.dark .suggestion-info h4{
+
+color:white;
+}
+
+body.dark .suggestion-info p{
+
+color:#d9b36b;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.search-bar{
+
+max-width:100%;
+}
+
+.suggestion{
+
+padding:.9rem;
+}
+
+.suggestion img{
+
+width:50px;
+height:50px;
+}
+}

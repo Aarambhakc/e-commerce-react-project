@@ -1,0 +1,102 @@
+/* ===================================
+   TOP HEADER
+=================================== */
+
+.top-header {
+  height: 44px;
+  background: #111;
+  color: #f5f3ef;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 clamp(1rem, 5vw, 5rem);
+
+  border-bottom: 1px solid rgba(255,255,255,.08);
+
+  font-size: .72rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* ===================================
+   SECTIONS
+=================================== */
+
+.header-left,
+.header-center,
+.header-right {
+  flex: 1;
+  color: rgba(255,255,255,.82);
+  transition: color .3s ease;
+}
+
+.header-left {
+  text-align: left;
+}
+
+.header-center {
+  text-align: center;
+  color: #b89a60;
+  letter-spacing: 3px;
+}
+
+.header-right {
+  text-align: right;
+  cursor: pointer;
+}
+
+.header-right:hover {
+  color: white;
+}
+
+/* ===================================
+   DIVIDERS
+=================================== */
+
+.header-left::after,
+.header-center::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* ===================================
+   MOBILE
+=================================== */
+
+@media (max-width:768px) {
+
+.top-header{
+height:42px;
+justify-content:center;
+padding:0 1rem;
+}
+
+.header-left,
+.header-right{
+display:none;
+}
+
+.header-center{
+font-size:.68rem;
+letter-spacing:2px;
+color:#d9c08b;
+}
+
+}
+
+@media (max-width:480px){
+
+.top-header{
+height:40px;
+}
+
+.header-center{
+font-size:.64rem;
+letter-spacing:1.5px;
+}
+
+}

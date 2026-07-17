@@ -1,0 +1,1040 @@
+/* ==========================================================
+   ORDER DETAILS
+   STRUT & SUBSTANCE
+   Luxury Editorial UI
+========================================================== */
+
+:root{
+    --gold:#b89a60;
+    --black:#111111;
+    --text:#555;
+    --border:#e8e8e8;
+    --card:#ffffff;
+    --soft:#faf8f4;
+}
+
+/* ==========================================================
+   PAGE
+========================================================== */
+
+.order-details-page{
+
+    width:min(92%,1280px);
+
+    margin:auto;
+
+    padding:90px 0 120px;
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.details-header{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.details-tag{
+
+    display:inline-block;
+
+    color:var(--gold);
+
+    text-transform:uppercase;
+
+    letter-spacing:5px;
+
+    font-size:.82rem;
+
+    margin-bottom:18px;
+
+}
+
+.details-header h1{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:4rem;
+
+    font-weight:400;
+
+    color:var(--black);
+
+    line-height:1.1;
+
+}
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.details-card{
+
+    background:var(--soft);
+
+    border:1px solid #ece7dc;
+
+    border-radius:22px;
+
+    padding:55px;
+
+    box-shadow:
+
+    0 30px 70px rgba(0,0,0,.06);
+
+}
+
+/* ==========================================================
+   ORDER INFO
+========================================================== */
+
+.details-info{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(190px,1fr));
+
+    gap:22px;
+
+    margin-bottom:70px;
+
+}
+
+.details-info > div{
+
+    background:var(--card);
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    padding:24px;
+
+    transition:.35s ease;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.details-info > div::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:var(--gold);
+
+    transform:scaleY(0);
+
+    transition:.35s;
+
+    transform-origin:top;
+
+}
+
+.details-info > div:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+
+    0 18px 45px rgba(0,0,0,.08);
+
+}
+
+.details-info > div:hover::before{
+
+    transform:scaleY(1);
+
+}
+
+.details-info span{
+
+    display:block;
+
+    font-size:.74rem;
+
+    color:#9a9a9a;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:10px;
+
+}
+
+.details-info p{
+
+    color:#111;
+
+    font-size:1rem;
+
+    font-weight:500;
+
+    line-height:1.6;
+
+    word-break:break-word;
+
+}
+
+/* subtle premium divider */
+
+.details-info > div:not(:last-child){
+
+    position:relative;
+
+}
+
+/* ==========================================================
+   SECTION TITLES
+========================================================== */
+
+.order-status{
+
+    margin-bottom:70px;
+
+}
+
+.order-status h2,
+
+.details-items h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2.4rem;
+
+    font-weight:400;
+
+    color:#111;
+
+    margin-bottom:30px;
+
+}
+
+/* ==========================================================
+   ORDER TIMELINE
+========================================================== */
+
+.order-timeline{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+    position:relative;
+
+}
+
+.timeline-step{
+
+    position:relative;
+
+    background:#fff;
+
+    border:1px solid #e7e7e7;
+
+    border-radius:16px;
+
+    padding:22px 18px;
+
+    text-align:center;
+
+    transition:.35s ease;
+
+    overflow:hidden;
+
+}
+
+.timeline-step::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:4px;
+
+    background:#ddd;
+
+    transition:.35s;
+
+}
+
+.timeline-step.active{
+
+    background:linear-gradient(
+        135deg,
+        #c3a46a,
+        #b89a60
+    );
+
+    border-color:#b89a60;
+
+    color:#fff;
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 18px 45px rgba(184,154,96,.28);
+
+}
+
+.timeline-step.active::before{
+
+    background:#fff;
+
+}
+
+.timeline-step:not(.active):hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 14px 35px rgba(0,0,0,.06);
+
+}
+
+.timeline-step{
+
+    font-size:.78rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-weight:600;
+
+    color:#888;
+
+}
+
+/* ==========================================================
+   ITEMS
+========================================================== */
+
+.details-items{
+
+    margin-top:30px;
+
+}
+
+.details-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:28px;
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    margin-bottom:22px;
+
+    transition:.35s ease;
+
+}
+
+.details-item:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.06);
+
+}
+
+.details-item img{
+
+    width:140px;
+
+    height:140px;
+
+    object-fit:contain;
+
+    background:#f7f7f7;
+
+    border-radius:14px;
+
+    padding:12px;
+
+    flex-shrink:0;
+
+}
+
+.item-info{
+
+    flex:1;
+
+}
+
+.item-info h3{
+
+    font-size:1.3rem;
+
+    font-weight:500;
+
+    line-height:1.5;
+
+    margin-bottom:14px;
+
+    color:#111;
+
+}
+
+.item-info p{
+
+    margin:6px 0;
+
+    color:#666;
+
+    font-size:.96rem;
+
+}
+
+.item-price{
+
+    min-width:120px;
+
+    text-align:right;
+
+    font-size:1.4rem;
+
+    font-weight:600;
+
+    color:#111;
+
+    font-family:"Cormorant Garamond",serif;
+
+}
+
+/* product separator */
+
+.details-item+.details-item{
+
+    margin-top:22px;
+
+}
+/* ==========================================================
+   TOTAL SUMMARY
+========================================================== */
+
+.details-total{
+
+    margin-top:50px;
+
+    padding:28px 36px;
+
+    border-radius:18px;
+
+    background:linear-gradient(
+        135deg,
+        #111,
+        #262626
+    );
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    color:#fff;
+
+    box-shadow:
+        0 22px 50px rgba(0,0,0,.18);
+
+}
+
+.details-total span:first-child{
+
+    font-size:1.1rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    color:#ddd;
+
+}
+
+.details-total span:last-child{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:2.1rem;
+
+    font-weight:500;
+
+    letter-spacing:1px;
+
+}
+
+/* ==========================================================
+   ACTION BUTTONS
+========================================================== */
+
+.details-actions{
+
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.back-btn,
+.continue-btn{
+
+    min-width:230px;
+
+    padding:16px 30px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.35s ease;
+
+    font-size:.82rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-weight:600;
+
+}
+
+.back-btn{
+
+    background:transparent;
+
+    color:#111;
+
+    border:1px solid #111;
+
+}
+
+.back-btn:hover{
+
+    background:#111;
+
+    color:#fff;
+
+    transform:translateY(-3px);
+
+}
+
+.continue-btn{
+
+    background:#111;
+
+    color:#fff;
+
+    border:none;
+
+}
+
+.continue-btn:hover{
+
+    background:#b89a60;
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 18px 40px rgba(184,154,96,.30);
+
+}
+
+/* ==========================================================
+   ORDER NOT FOUND
+========================================================== */
+
+.order-not-found{
+
+    min-height:70vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.order-not-found h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:3.2rem;
+
+    font-weight:400;
+
+    color:#111;
+
+    margin-bottom:18px;
+
+}
+
+.order-not-found p{
+
+    max-width:520px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.order-not-found .back-btn{
+
+    min-width:240px;
+
+}
+
+/* ==========================================================
+   SMALL ANIMATIONS
+========================================================== */
+
+.details-card{
+
+    animation:fadeUp .7s ease;
+
+}
+
+.details-item{
+
+    animation:fadeItem .5s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes fadeItem{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/* ==========================================================
+   DARK MODE
+========================================================== */
+
+body.dark .details-header h1,
+body.dark .details-info p,
+body.dark .order-status h2,
+body.dark .details-items h2,
+body.dark .item-info h3,
+body.dark .item-price,
+body.dark .order-not-found h2{
+
+    color:#fff;
+
+}
+
+body.dark .details-card{
+
+    background:#171717;
+
+    border-color:#2d2d2d;
+
+    box-shadow:
+        0 30px 70px rgba(255,255,255,.03);
+
+}
+
+body.dark .details-info>div,
+body.dark .details-item,
+body.dark .timeline-step{
+
+    background:#202020;
+
+    border-color:#333;
+
+}
+
+body.dark .details-info span{
+
+    color:#a8a8a8;
+
+}
+
+body.dark .item-info p,
+body.dark .order-not-found p{
+
+    color:#c9c9c9;
+
+}
+
+body.dark .details-item img{
+
+    background:#2b2b2b;
+
+}
+
+body.dark .timeline-step{
+
+    color:#bdbdbd;
+
+}
+
+body.dark .timeline-step.active{
+
+    background:linear-gradient(
+        135deg,
+        #b89a60,
+        #9f8148
+    );
+
+    color:#fff;
+
+    border-color:#b89a60;
+
+}
+
+body.dark .details-total{
+
+    background:linear-gradient(
+        135deg,
+        #2b2b2b,
+        #1f1f1f
+    );
+
+}
+
+body.dark .back-btn{
+
+    color:#fff;
+
+    border-color:#fff;
+
+}
+
+body.dark .back-btn:hover{
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+body.dark .continue-btn{
+
+    background:#f4f4f4;
+
+    color:#111;
+
+}
+
+body.dark .continue-btn:hover{
+
+    background:#b89a60;
+
+    color:#fff;
+
+}
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width:992px){
+
+.details-header h1{
+
+    font-size:3rem;
+
+}
+
+.details-card{
+
+    padding:35px;
+
+}
+
+.order-timeline{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.details-item{
+
+    gap:20px;
+
+}
+
+.details-item img{
+
+    width:120px;
+
+    height:120px;
+
+}
+
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+.order-details-page{
+
+    width:94%;
+
+    padding:70px 0;
+
+}
+
+.details-header{
+
+    margin-bottom:45px;
+
+}
+
+.details-header h1{
+
+    font-size:2.35rem;
+
+}
+
+.details-card{
+
+    padding:22px;
+
+    border-radius:18px;
+
+}
+
+.details-info{
+
+    grid-template-columns:1fr;
+
+}
+
+.order-timeline{
+
+    grid-template-columns:1fr;
+
+}
+
+.details-item{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+.details-item img{
+
+    width:150px;
+
+    height:150px;
+
+}
+
+.item-price{
+
+    text-align:center;
+
+    margin-top:10px;
+
+}
+
+.details-total{
+
+    flex-direction:column;
+
+    gap:10px;
+
+    text-align:center;
+
+    padding:24px;
+
+}
+
+.details-total span:last-child{
+
+    font-size:1.8rem;
+
+}
+
+.details-actions{
+
+    flex-direction:column;
+
+}
+
+.back-btn,
+.continue-btn{
+
+    width:100%;
+
+}
+
+.order-not-found h2{
+
+    font-size:2.3rem;
+
+}
+
+}
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width:480px){
+
+.details-header h1{
+
+    font-size:2rem;
+
+}
+
+.details-tag{
+
+    font-size:.72rem;
+
+    letter-spacing:3px;
+
+}
+
+.details-item img{
+
+    width:120px;
+
+    height:120px;
+
+}
+
+.item-info h3{
+
+    font-size:1.1rem;
+
+}
+
+.details-total span:last-child{
+
+    font-size:1.6rem;
+
+}
+
+}
+
+/* ==========================================================
+   SCROLLBAR (Luxury)
+========================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#f5f5f5;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#b89a60;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#9f8148;
+
+}
+
+body.dark::-webkit-scrollbar-track{
+
+    background:#181818;
+
+}

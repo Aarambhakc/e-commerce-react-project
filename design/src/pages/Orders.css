@@ -1,0 +1,756 @@
+/*==========================================================
+  STRUT & SUBSTANCE
+  ORDERS
+==========================================================*/
+
+:root {
+  --gold: #b89a60;
+  --black: #111111;
+  --text: #666;
+  --soft: #faf8f4;
+  --card: #ffffff;
+  --border: #ebe6dc;
+}
+
+/*==========================================================
+  PAGE
+==========================================================*/
+
+.orders-page {
+
+  width: min(92%, 1280px);
+
+  margin: auto;
+
+  padding: 90px 0 120px;
+
+}
+
+/*==========================================================
+  HEADER
+==========================================================*/
+
+.orders-page h1 {
+
+  text-align: center;
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 4rem;
+
+  font-weight: 400;
+
+  color: var(--black);
+
+  letter-spacing: 1px;
+
+  margin-bottom: 20px;
+
+}
+
+.orders-page h1::after {
+
+  content: "";
+
+  display: block;
+
+  width: 80px;
+
+  height: 2px;
+
+  margin: 24px auto 0;
+
+  background: var(--gold);
+
+}
+
+/*==========================================================
+  ORDERS LIST
+==========================================================*/
+
+.orders-list {
+
+  margin-top: 70px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 35px;
+
+}
+
+/*==========================================================
+  CARD
+==========================================================*/
+
+.order-card {
+
+  background: var(--soft);
+
+  border: 1px solid var(--border);
+
+  border-radius: 22px;
+
+  padding: 35px;
+
+  cursor: pointer;
+
+  transition: .35s ease;
+
+  box-shadow:
+
+    0 20px 55px rgba(0, 0, 0, .04);
+
+}
+
+.order-card:hover {
+
+  transform: translateY(-8px);
+
+  box-shadow:
+
+    0 28px 70px rgba(0, 0, 0, .08);
+
+}
+
+/*==========================================================
+  HEADER ROW
+==========================================================*/
+
+.order-header {
+
+  display: grid;
+
+  grid-template-columns:
+
+    1.3fr auto auto;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding-bottom: 24px;
+
+  margin-bottom: 30px;
+
+  border-bottom: 1px solid var(--border);
+
+}
+
+.order-header span:first-child {
+
+  font-weight: 600;
+
+  color: #111;
+
+  font-size: 1rem;
+
+  letter-spacing: .5px;
+
+}
+
+.order-header span:last-child {
+
+  justify-self: end;
+
+  color: #8d8d8d;
+
+  font-size: .92rem;
+
+}
+
+/*==========================================================
+  STATUS BADGES
+==========================================================*/
+
+.status {
+
+  justify-self: center;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 130px;
+
+  padding: 10px 18px;
+
+  border-radius: 999px;
+
+  font-size: .72rem;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+.status.processing {
+
+  background: #d9b067;
+
+  color: #fff;
+
+}
+
+.status.shipped {
+
+  background: #2d5b84;
+
+  color: #fff;
+
+}
+
+.status.delivered {
+
+  background: #446d50;
+
+  color: #fff;
+
+}
+
+.status.cancelled {
+
+  background: #8e2c2c;
+
+  color: #fff;
+
+}
+
+/*==========================================================
+  ORDER BODY
+==========================================================*/
+
+.order-body {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 22px;
+
+}
+
+/*==========================================================
+  PRODUCT
+==========================================================*/
+
+.order-item {
+
+  display: grid;
+
+  grid-template-columns:
+
+    120px 1fr auto;
+
+  align-items: center;
+
+  gap: 28px;
+
+  padding-bottom: 22px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+
+}
+
+.order-item:last-child {
+
+  padding-bottom: 0;
+
+  border: none;
+
+}
+
+/*==========================================================
+  IMAGE
+==========================================================*/
+
+.order-item img {
+
+  width: 120px;
+
+  height: 120px;
+
+  object-fit: contain;
+
+  background: white;
+
+  border-radius: 16px;
+
+  padding: 12px;
+
+  border: 1px solid rgba(0, 0, 0, .04);
+
+  transition: .3s;
+
+}
+
+.order-card:hover .order-item img {
+
+  transform: scale(1.03);
+
+}
+
+/*==========================================================
+  PRODUCT INFO
+==========================================================*/
+
+.order-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+.order-info .title {
+
+  font-size: 1.1rem;
+
+  color: #111;
+
+  font-weight: 500;
+
+  line-height: 1.5;
+
+  margin: 0;
+
+  font-family: "Cormorant Garamond", serif;
+
+}
+
+.order-info p {
+
+  margin: 0;
+
+  color: #777;
+
+  font-size: .95rem;
+
+  line-height: 1.7;
+
+}
+
+.price {
+
+  font-size: 1.25rem;
+
+  font-weight: 600;
+
+  color: #111;
+
+  white-space: nowrap;
+
+}
+
+/*==========================================================
+  ORDER FOOTER
+==========================================================*/
+
+.order-footer{
+
+    margin-top:10px;
+
+    padding-top:28px;
+
+    border-top:1px solid rgba(0,0,0,.07);
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+}
+
+.order-footer strong{
+
+    font-size:1.35rem;
+
+    font-weight:600;
+
+    color:#b89a60;
+
+    letter-spacing:1px;
+
+}
+
+/*==========================================================
+  EMPTY STATE
+==========================================================*/
+
+.empty-orders{
+
+    min-height:70vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:4rem 2rem;
+
+}
+
+.empty-orders h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:3rem;
+
+    font-weight:400;
+
+    color:#111;
+
+    margin-bottom:18px;
+
+}
+
+.empty-orders p{
+
+    max-width:480px;
+
+    color:#777;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+.empty-orders a{
+
+    display:inline-flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:16px 38px;
+
+    text-decoration:none;
+
+    background:#111;
+
+    color:white;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    transition:.35s;
+
+}
+
+.empty-orders a:hover{
+
+    background:#b89a60;
+
+}
+
+/*==========================================================
+  ORDER DETAILS PAGE WRAPPER
+==========================================================*/
+
+.order-details{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:6rem 0;
+
+}
+
+/*==========================================================
+  HOVER EFFECTS
+==========================================================*/
+
+.order-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:5px;
+
+    height:0;
+
+    background:#b89a60;
+
+    transition:.35s;
+
+}
+
+.order-card:hover::before{
+
+    height:100%;
+
+}
+
+/*==========================================================
+  SUBTLE ANIMATION
+==========================================================*/
+
+@keyframes orderFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+}
+
+.order-card{
+
+    animation:orderFade .5s ease forwards;
+
+}
+
+/* ==========================================
+   EMPTY STATE
+========================================== */
+
+.empty-orders {
+  min-height: calc(100vh - 220px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.empty-orders h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.empty-orders p {
+  color: #777;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.empty-orders .shop-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.5rem;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.35s ease;
+}
+
+.empty-orders .shop-btn:hover {
+  background: #b89a60;
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .orders-page {
+  color: #f5f5f5;
+}
+
+body.dark .orders-page h1 {
+  color: #f5f5f5;
+}
+
+body.dark .order-card {
+  background: #181818;
+  border-color: #2f2f2f;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+body.dark .order-card:hover {
+  box-shadow: 0 28px 65px rgba(0, 0, 0, 0.5);
+}
+
+body.dark .order-header {
+  border-bottom-color: #303030;
+}
+
+body.dark .order-number {
+  color: #f5f5f5;
+}
+
+body.dark .order-date {
+  color: #a9a9a9;
+}
+
+body.dark .order-item {
+  border-bottom-color: #2f2f2f;
+}
+
+body.dark .order-item img {
+  background: #222;
+}
+
+body.dark .order-info .title {
+  color: #f5f5f5;
+}
+
+body.dark .order-info p {
+  color: #bdbdbd;
+}
+
+body.dark .price {
+  color: #f5f5f5;
+}
+
+body.dark .order-footer {
+  border-top-color: #303030;
+}
+
+body.dark .total-label {
+  color: #cfcfcf;
+}
+
+body.dark .total-price {
+  color: #d4b06d;
+}
+
+body.dark .empty-orders h2 {
+  color: #f5f5f5;
+}
+
+body.dark .empty-orders p {
+  color: #bcbcbc;
+}
+
+body.dark .empty-orders .shop-btn {
+  background: #f5f5f5;
+  color: #111;
+}
+
+body.dark .empty-orders .shop-btn:hover {
+  background: #b89a60;
+  color: white;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 900px) {
+  .orders-page {
+    padding: 4rem 0;
+  }
+
+  .order-card {
+    padding: 2rem;
+  }
+
+  .order-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .order-footer {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: flex-start;
+  }
+
+  .empty-orders h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 650px) {
+  .orders-page {
+    width: 94%;
+  }
+
+  .orders-page h1 {
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+  }
+
+  .order-card {
+    padding: 1.5rem;
+  }
+
+  .order-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .order-item img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .order-info {
+    text-align: center;
+  }
+
+  .price {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .order-footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .empty-orders h2 {
+    font-size: 2rem;
+  }
+
+  .empty-orders p {
+    font-size: 0.95rem;
+  }
+
+  .empty-orders .shop-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,934 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Charcoal Cashmere Overcoat",
+      "price": 220,
+      "brand": "Strut & Substance",
+      "category": "Outerwear",
+      "color": "Charcoal",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 100,
+      "rating": 4.4,
+      "reviews": 304,
+      "description": "Luxury cashmere overcoat crafted with premium materials and timeless tailoring.",
+      "image": "https://mond.com/wp-content/uploads/2023/11/closeup-Charcoal-WoolCashmere-Herringbone-Overcoat-scaled.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Navy Double-Breasted Blazer",
+      "price": 247,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Navy",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 80,
+      "rating": 4.9,
+      "reviews": 211,
+      "description": "Luxury double-breasted blazer crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZDAGu9FNQCQvG-5Q_WAnOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "3",
+      "title": "Stone Wool Suit",
+      "price": 274,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Stone",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 210,
+      "rating": 4.7,
+      "reviews": 100,
+      "description": "Luxury wool suit crafted with premium materials and timeless tailoring.",
+      "image": "https://th.bing.com/th/id/R.f5d4fde7b02fafa09148e6d05ef5f7ab?rik=VldB2CBAjTFYZg&riu=http%3a%2f%2fwww.studiosuits.com%2fcdn%2fshop%2ffiles%2fsolbiatitwillstonebrownlinensuitlk.jpg%3fv%3d1687252668&ehk=dXgTYvuHMFal2tkfox4po7e9oVvESMX6R%2bAV4GjrhRY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "4",
+      "title": "Black Merino Sweater",
+      "price": 301,
+      "brand": "Strut & Substance",
+      "category": "Knitwear",
+      "color": "Black",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 13,
+      "rating": 4.7,
+      "reviews": 304,
+      "description": "Luxury merino sweater crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.zeih8x7Hyoa2k6ruSQWa3wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "5",
+      "title": "Olive Oxford Shirt",
+      "price": 328,
+      "brand": "Strut & Substance",
+      "category": "Shirts",
+      "color": "Olive",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 160,
+      "rating": 4.9,
+      "reviews": 136,
+      "description": "Luxury oxford shirt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.cyL2D8HUasCMxzC2fPmzAQHaJQ?r=0&w=500&h=625&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "6",
+      "title": "Camel Wool Trousers",
+      "price": 355,
+      "brand": "Strut & Substance",
+      "category": "Trousers",
+      "color": "Camel",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 160,
+      "rating": 4.8,
+      "reviews": 342,
+      "description": "Luxury wool trousers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZKvgwu4Ozcrd756MJor0OgHaKX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "7",
+      "title": "Ivory Leather Loafers",
+      "price": 382,
+      "brand": "Strut & Substance",
+      "category": "Footwear",
+      "color": "Ivory",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 27,
+      "rating": 4.8,
+      "reviews": 347,
+      "description": "Luxury leather loafers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IJygoejHnOTvDa_2sNw7RAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "8",
+      "title": "Brown Leather Belt",
+      "price": 409,
+      "brand": "Strut & Substance",
+      "category": "Accessories",
+      "color": "Brown",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 230,
+      "rating": 5,
+      "reviews": 50,
+      "description": "Luxury leather belt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.KLL9EUf4-x78z-wM4krIEAHaFB?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "9",
+      "title": "Charcoal Cashmere Overcoat",
+      "price": 436,
+      "brand": "Strut & Substance",
+      "category": "Outerwear",
+      "color": "Charcoal",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 8,
+      "rating": 4.7,
+      "reviews": 111,
+      "description": "Luxury cashmere overcoat crafted with premium materials and timeless tailoring.",
+      "image": "https://mond.com/wp-content/uploads/2023/11/closeup-Charcoal-WoolCashmere-Herringbone-Overcoat-scaled.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Navy Double-Breasted Blazer",
+      "price": 463,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Navy",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 28,
+      "rating": 4.9,
+      "reviews": 94,
+      "description": "Luxury double-breasted blazer crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZDAGu9FNQCQvG-5Q_WAnOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "11",
+      "title": "Stone Wool Suit",
+      "price": 490,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Stone",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 230,
+      "rating": 4.8,
+      "reviews": 288,
+      "description": "Luxury wool suit crafted with premium materials and timeless tailoring.",
+      "image": "https://th.bing.com/th/id/R.f5d4fde7b02fafa09148e6d05ef5f7ab?rik=VldB2CBAjTFYZg&riu=http%3a%2f%2fwww.studiosuits.com%2fcdn%2fshop%2ffiles%2fsolbiatitwillstonebrownlinensuitlk.jpg%3fv%3d1687252668&ehk=dXgTYvuHMFal2tkfox4po7e9oVvESMX6R%2bAV4GjrhRY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "12",
+      "title": "Black Merino Sweater",
+      "price": 517,
+      "brand": "Strut & Substance",
+      "category": "Knitwear",
+      "color": "Black",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 140,
+      "rating": 4.6,
+      "reviews": 252,
+      "description": "Luxury merino sweater crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.zeih8x7Hyoa2k6ruSQWa3wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "13",
+      "title": "Olive Oxford Shirt",
+      "price": 544,
+      "brand": "Strut & Substance",
+      "category": "Shirts",
+      "color": "Olive",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 300,
+      "rating": 4.5,
+      "reviews": 149,
+      "description": "Luxury oxford shirt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.cyL2D8HUasCMxzC2fPmzAQHaJQ?r=0&w=500&h=625&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "14",
+      "title": "Camel Wool Trousers",
+      "price": 571,
+      "brand": "Strut & Substance",
+      "category": "Trousers",
+      "color": "Camel",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 210,
+      "rating": 4.6,
+      "reviews": 285,
+      "description": "Luxury wool trousers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZKvgwu4Ozcrd756MJor0OgHaKX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "15",
+      "title": "Ivory Leather Loafers",
+      "price": 598,
+      "brand": "Strut & Substance",
+      "category": "Footwear",
+      "color": "Ivory",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 210,
+      "rating": 4.9,
+      "reviews": 328,
+      "description": "Luxury leather loafers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IJygoejHnOTvDa_2sNw7RAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "16",
+      "title": "Brown Leather Belt",
+      "price": 625,
+      "brand": "Strut & Substance",
+      "category": "Accessories",
+      "color": "Brown",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 130,
+      "rating": 4.7,
+      "reviews": 321,
+      "description": "Luxury leather belt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.KLL9EUf4-x78z-wM4krIEAHaFB?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "17",
+      "title": "Charcoal Cashmere Overcoat",
+      "price": 652,
+      "brand": "Strut & Substance",
+      "category": "Outerwear",
+      "color": "Charcoal",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 300,
+      "rating": 4.5,
+      "reviews": 119,
+      "description": "Luxury cashmere overcoat crafted with premium materials and timeless tailoring.",
+      "image": "https://mond.com/wp-content/uploads/2023/11/closeup-Charcoal-WoolCashmere-Herringbone-Overcoat-scaled.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Navy Double-Breasted Blazer",
+      "price": 679,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Navy",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 190,
+      "rating": 4.6,
+      "reviews": 204,
+      "description": "Luxury double-breasted blazer crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZDAGu9FNQCQvG-5Q_WAnOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "19",
+      "title": "Stone Wool Suit",
+      "price": 706,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Stone",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 220,
+      "rating": 5,
+      "reviews": 192,
+      "description": "Luxury wool suit crafted with premium materials and timeless tailoring.",
+      "image": "https://th.bing.com/th/id/R.f5d4fde7b02fafa09148e6d05ef5f7ab?rik=VldB2CBAjTFYZg&riu=http%3a%2f%2fwww.studiosuits.com%2fcdn%2fshop%2ffiles%2fsolbiatitwillstonebrownlinensuitlk.jpg%3fv%3d1687252668&ehk=dXgTYvuHMFal2tkfox4po7e9oVvESMX6R%2bAV4GjrhRY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "20",
+      "title": "Black Merino Sweater",
+      "price": 733,
+      "brand": "Strut & Substance",
+      "category": "Knitwear",
+      "color": "Black",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 250,
+      "rating": 4.6,
+      "reviews": 273,
+      "description": "Luxury merino sweater crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.zeih8x7Hyoa2k6ruSQWa3wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "21",
+      "title": "Olive Oxford Shirt",
+      "price": 760,
+      "brand": "Strut & Substance",
+      "category": "Shirts",
+      "color": "Olive",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 600,
+      "rating": 4.6,
+      "reviews": 240,
+      "description": "Luxury oxford shirt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.cyL2D8HUasCMxzC2fPmzAQHaJQ?r=0&w=500&h=625&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "22",
+      "title": "Camel Wool Trousers",
+      "price": 787,
+      "brand": "Strut & Substance",
+      "category": "Trousers",
+      "color": "Camel",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 80,
+      "rating": 4.8,
+      "reviews": 62,
+      "description": "Luxury wool trousers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZKvgwu4Ozcrd756MJor0OgHaKX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "23",
+      "title": "Ivory Leather Loafers",
+      "price": 814,
+      "brand": "Strut & Substance",
+      "category": "Footwear",
+      "color": "Ivory",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 140,
+      "rating": 4.7,
+      "reviews": 221,
+      "description": "Luxury leather loafers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IJygoejHnOTvDa_2sNw7RAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "24",
+      "title": "Brown Leather Belt",
+      "price": 841,
+      "brand": "Strut & Substance",
+      "category": "Accessories",
+      "color": "Brown",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 160,
+      "rating": 4.6,
+      "reviews": 94,
+      "description": "Luxury leather belt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.KLL9EUf4-x78z-wM4krIEAHaFB?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "25",
+      "title": "Charcoal Cashmere Overcoat",
+      "price": 868,
+      "brand": "Strut & Substance",
+      "category": "Outerwear",
+      "color": "Charcoal",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 120,
+      "rating": 5,
+      "reviews": 328,
+      "description": "Luxury cashmere overcoat crafted with premium materials and timeless tailoring.",
+      "image": "https://mond.com/wp-content/uploads/2023/11/closeup-Charcoal-WoolCashmere-Herringbone-Overcoat-scaled.jpg"
+    },
+    {
+      "id": "26",
+      "title": "Navy Double-Breasted Blazer",
+      "price": 895,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Navy",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 60,
+      "rating": 4.7,
+      "reviews": 184,
+      "description": "Luxury double-breasted blazer crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZDAGu9FNQCQvG-5Q_WAnOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "27",
+      "title": "Stone Wool Suit",
+      "price": 922,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Stone",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 150,
+      "rating": 4.9,
+      "reviews": 48,
+      "description": "Luxury wool suit crafted with premium materials and timeless tailoring.",
+      "image": "https://th.bing.com/th/id/R.f5d4fde7b02fafa09148e6d05ef5f7ab?rik=VldB2CBAjTFYZg&riu=http%3a%2f%2fwww.studiosuits.com%2fcdn%2fshop%2ffiles%2fsolbiatitwillstonebrownlinensuitlk.jpg%3fv%3d1687252668&ehk=dXgTYvuHMFal2tkfox4po7e9oVvESMX6R%2bAV4GjrhRY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "28",
+      "title": "Black Merino Sweater",
+      "price": 949,
+      "brand": "Strut & Substance",
+      "category": "Knitwear",
+      "color": "Black",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 220,
+      "rating": 4.5,
+      "reviews": 79,
+      "description": "Luxury merino sweater crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.zeih8x7Hyoa2k6ruSQWa3wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "29",
+      "title": "Olive Oxford Shirt",
+      "price": 976,
+      "brand": "Strut & Substance",
+      "category": "Shirts",
+      "color": "Olive",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 18,
+      "rating": 5,
+      "reviews": 58,
+      "description": "Luxury oxford shirt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.cyL2D8HUasCMxzC2fPmzAQHaJQ?r=0&w=500&h=625&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "30",
+      "title": "Camel Wool Trousers",
+      "price": 1003,
+      "brand": "Strut & Substance",
+      "category": "Trousers",
+      "color": "Camel",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 29,
+      "rating": 4.9,
+      "reviews": 246,
+      "description": "Luxury wool trousers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZKvgwu4Ozcrd756MJor0OgHaKX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "31",
+      "title": "Ivory Leather Loafers",
+      "price": 1030,
+      "brand": "Strut & Substance",
+      "category": "Footwear",
+      "color": "Ivory",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 30,
+      "rating": 4.8,
+      "reviews": 115,
+      "description": "Luxury leather loafers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IJygoejHnOTvDa_2sNw7RAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "32",
+      "title": "Brown Leather Belt",
+      "price": 1057,
+      "brand": "Strut & Substance",
+      "category": "Accessories",
+      "color": "Brown",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 24,
+      "rating": 4.5,
+      "reviews": 144,
+      "description": "Luxury leather belt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.KLL9EUf4-x78z-wM4krIEAHaFB?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "33",
+      "title": "Charcoal Cashmere Overcoat",
+      "price": 1084,
+      "brand": "Strut & Substance",
+      "category": "Outerwear",
+      "color": "Charcoal",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 15,
+      "rating": 4.5,
+      "reviews": 220,
+      "description": "Luxury cashmere overcoat crafted with premium materials and timeless tailoring.",
+      "image": "https://mond.com/wp-content/uploads/2023/11/closeup-Charcoal-WoolCashmere-Herringbone-Overcoat-scaled.jpg"
+    },
+    {
+      "id": "34",
+      "title": "Navy Double-Breasted Blazer",
+      "price": 1111,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Navy",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 25,
+      "rating": 4.9,
+      "reviews": 279,
+      "description": "Luxury double-breasted blazer crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZDAGu9FNQCQvG-5Q_WAnOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "35",
+      "title": "Stone Wool Suit",
+      "price": 1138,
+      "brand": "Strut & Substance",
+      "category": "Tailoring",
+      "color": "Stone",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 20,
+      "rating": 5,
+      "reviews": 219,
+      "description": "Luxury wool suit crafted with premium materials and timeless tailoring.",
+      "image": "https://th.bing.com/th/id/R.f5d4fde7b02fafa09148e6d05ef5f7ab?rik=VldB2CBAjTFYZg&riu=http%3a%2f%2fwww.studiosuits.com%2fcdn%2fshop%2ffiles%2fsolbiatitwillstonebrownlinensuitlk.jpg%3fv%3d1687252668&ehk=dXgTYvuHMFal2tkfox4po7e9oVvESMX6R%2bAV4GjrhRY%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "36",
+      "title": "Black Merino Sweater",
+      "price": 1165,
+      "brand": "Strut & Substance",
+      "category": "Knitwear",
+      "color": "Black",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 7,
+      "rating": 4.6,
+      "reviews": 165,
+      "description": "Luxury merino sweater crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.zeih8x7Hyoa2k6ruSQWa3wHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "37",
+      "title": "Olive Oxford Shirt",
+      "price": 1192,
+      "brand": "Strut & Substance",
+      "category": "Shirts",
+      "color": "Olive",
+      "material": "Cashmere",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 5,
+      "rating": 4.7,
+      "reviews": 166,
+      "description": "Luxury oxford shirt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.cyL2D8HUasCMxzC2fPmzAQHaJQ?r=0&w=500&h=625&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "38",
+      "title": "Camel Wool Trousers",
+      "price": 1219,
+      "brand": "Strut & Substance",
+      "category": "Trousers",
+      "color": "Camel",
+      "material": "Italian Wool",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 20,
+      "rating": 4.9,
+      "reviews": 77,
+      "description": "Luxury wool trousers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ZKvgwu4Ozcrd756MJor0OgHaKX?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "39",
+      "title": "Ivory Leather Loafers",
+      "price": 1246,
+      "brand": "Strut & Substance",
+      "category": "Footwear",
+      "color": "Ivory",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 9,
+      "rating": 4.8,
+      "reviews": 222,
+      "description": "Luxury leather loafers crafted with premium materials and timeless tailoring.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IJygoejHnOTvDa_2sNw7RAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "id": "40",
+      "title": "Brown Leather Belt",
+      "price": 1273,
+      "brand": "Strut & Substance",
+      "category": "Accessories",
+      "color": "Brown",
+      "material": "Premium Leather",
+      "fit": "Regular",
+      "origin": "Made in Italy",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "stock": 30,
+      "rating": 4.4,
+      "reviews": 176,
+      "description": "Luxury leather belt crafted with premium materials and timeless tailoring.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.KLL9EUf4-x78z-wM4krIEAHaFB?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+    }
+  ],
+  "users": [],
+  "orders": [],
+  "reviews": [],
+  "wishlist": [],
+  "newsletter": [],
+  "collections": [
+    {
+      "id": "1",
+      "name": "Autumn Atelier"
+    },
+    {
+      "id": "2",
+      "name": "Resort Edit"
+    },
+    {
+      "id": "3",
+      "name": "Essentials"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Outerwear"
+    },
+    {
+      "id": "2",
+      "name": "Tailoring"
+    },
+    {
+      "id": "3",
+      "name": "Knitwear"
+    },
+    {
+      "id": "4",
+      "name": "Shirts"
+    },
+    {
+      "id": "5",
+      "name": "Trousers"
+    },
+    {
+      "id": "6",
+      "name": "Footwear"
+    },
+    {
+      "id": "7",
+      "name": "Accessories"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

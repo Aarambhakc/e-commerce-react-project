@@ -1,0 +1,437 @@
+
+/* ==========================================
+   HOME
+========================================== */
+
+.home{
+    width:100%;
+    overflow:hidden;
+    background:#fff;
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero{
+    position:relative;
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+
+    background:
+        linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.45)),
+        url("https://www.brioni.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fw2dr5qwt1rrm%2F5Bzs8npBNHqcBYV9ahsAoj%2F44455fabc7d92805ae12603f47dfd810%2FRivieraRecall_FullBleed_desktop.jpg&w=2400&q=75");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-overlay{
+    width:100%;
+    padding:0 10%;
+}
+
+.hero-content{
+    max-width:700px;
+    color:#fff;
+
+    animation:fadeUp .9s ease;
+}
+
+.hero-subtitle{
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:.85rem;
+    color:#d7ba83;
+    margin-bottom:1.5rem;
+}
+
+.hero-content h1{
+    font-family:"Cormorant Garamond",serif;
+    font-size:5.3rem;
+    font-weight:400;
+    line-height:1.05;
+    margin-bottom:2rem;
+}
+
+.hero-btn{
+    padding:16px 42px;
+
+    background:transparent;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    font-size:.9rem;
+    letter-spacing:3px;
+    text-transform:uppercase;
+
+    cursor:pointer;
+
+    transition:.35s;
+}
+
+.hero-btn:hover{
+    background:#b89a60;
+    border-color:#b89a60;
+    transform:translateY(-2px);
+}
+
+/* ==========================================
+   PHILOSOPHY
+========================================== */
+
+.philosophy{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    min-height:760px;
+
+    margin:7rem 0;
+
+    background:#fcfbf8;
+}
+
+.philosophy-image{
+
+    background:
+    url("https://www.brioni.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fw2dr5qwt1rrm%2F1kkNS24VBqrkX4dqAzwzjD%2F5f5337803f851bf3d32a8ee98f3f928b%2FBottomBanner_Bespoke_FW25.jpg&w=1080&q=75");
+
+    background-size:cover;
+    background-position:center;
+
+    transition:transform .8s ease;
+}
+
+.philosophy:hover .philosophy-image{
+    transform:scale(1.04);
+}
+
+.philosophy-content{
+
+    padding:8rem;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.philosophy-content span{
+
+    text-transform:uppercase;
+    letter-spacing:4px;
+
+    color:#b89a60;
+
+    margin-bottom:1rem;
+}
+
+.philosophy-content h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:4rem;
+    font-weight:400;
+
+    line-height:1.15;
+
+    margin-bottom:2rem;
+
+    color:#111;
+}
+
+.philosophy-content p{
+
+    max-width:520px;
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    color:#666;
+}
+
+/* ==========================================
+   EDITORIAL
+========================================== */
+
+.editorial{
+
+    position:relative;
+
+    min-height:85vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://www.brioni.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fw2dr5qwt1rrm%2F3mYBpzm58L6gFKblI6akwC%2F6ef4e6717ae1a3c566dd6dc9827a8582%2FBottomBanner_essentials_crop.jpg&w=1080&q=75");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.editorial-content{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    padding:4rem 5rem;
+
+    color:#fff;
+}
+
+.editorial h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:4.5rem;
+    font-weight:400;
+
+    margin-bottom:1rem;
+}
+
+.editorial p{
+
+    max-width:600px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    color:#ececec;
+}
+
+/* ==========================================
+   NEWSLETTER
+========================================== */
+
+.newsletter{
+
+    position:relative;
+
+    min-height:75vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:6rem 10%;
+
+    background:
+    url("https://www.brioni.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fw2dr5qwt1rrm%2F3p1FDMcu9YxyDfWulV6GCQ%2Fa4aef61e17161bd2166d6572e5a7c26d%2FSCAY0LP91119000E.jpg&w=750&q=75");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.newsletter::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+}
+
+.newsletter>*{
+
+    position:relative;
+    z-index:2;
+}
+
+.newsletter h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:4rem;
+    font-weight:400;
+
+    color:#fff;
+
+    margin-bottom:1.5rem;
+}
+
+.newsletter p{
+
+    max-width:600px;
+
+    color:#e6e6e6;
+
+    line-height:1.9;
+
+    font-size:1.1rem;
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .home{
+    background:#111;
+}
+
+body.dark .philosophy{
+    background:#181818;
+}
+
+body.dark .philosophy-content h2{
+    color:#fff;
+}
+
+body.dark .philosophy-content p{
+    color:#cfcfcf;
+}
+
+/* ==========================================
+   ANIMATION
+========================================== */
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.hero-content h1{
+font-size:4rem;
+}
+
+.philosophy{
+
+grid-template-columns:1fr;
+}
+
+.philosophy-image{
+min-height:450px;
+}
+
+.philosophy-content{
+
+padding:4rem 2rem;
+text-align:center;
+align-items:center;
+}
+
+.philosophy-content h2{
+font-size:3rem;
+}
+
+.editorial-content{
+
+padding:3rem 2rem;
+margin:2rem;
+}
+
+.editorial h2{
+font-size:3rem;
+}
+
+.newsletter h2{
+font-size:3rem;
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.hero{
+justify-content:center;
+text-align:center;
+}
+
+.hero-overlay{
+padding:0 2rem;
+}
+
+.hero-content{
+margin:auto;
+}
+
+.hero-content h1{
+font-size:2.8rem;
+}
+
+.hero-btn{
+width:100%;
+max-width:260px;
+}
+
+.editorial h2{
+font-size:2.5rem;
+}
+
+.newsletter h2{
+font-size:2.5rem;
+}
+
+}
+
+/* ==========================================
+   SMALL PHONE
+========================================== */
+
+@media(max-width:480px){
+
+.hero-content h1{
+font-size:2.2rem;
+}
+
+.hero-subtitle{
+font-size:.75rem;
+}
+
+.philosophy-content h2{
+font-size:2.2rem;
+}
+
+.editorial h2{
+font-size:2rem;
+}
+
+.newsletter h2{
+font-size:2rem;
+}
+
+.philosophy-content{
+padding:3rem 1.5rem;
+}
+
+.editorial-content{
+padding:2rem 1.5rem;
+}
+
+}

@@ -1,0 +1,120 @@
+/* ==========================================
+   RELATED PRODUCTS
+========================================== */
+
+.related-products{
+
+width:min(92%,1400px);
+
+margin:8rem auto;
+
+position:relative;
+}
+
+.related-products h2{
+
+text-align:center;
+
+font-size:2.3rem;
+
+font-weight:300;
+
+letter-spacing:2px;
+
+color:#111;
+
+margin-bottom:.8rem;
+}
+
+.related-products h2::after{
+
+content:"";
+
+display:block;
+
+width:70px;
+height:2px;
+
+margin:1.2rem auto 0;
+
+background:#c8a96a;
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.related-products .products-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:2rem;
+
+align-items:stretch;
+}
+
+/* ==========================================
+   SECTION SPACING
+========================================== */
+
+.related-products .product-card{
+
+height:100%;
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .related-products h2{
+
+color:#f5f5f5;
+}
+
+body.dark .related-products h2::after{
+
+background:#d9b36b;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.related-products{
+
+margin:6rem auto;
+}
+
+.related-products h2{
+
+font-size:2rem;
+}
+}
+
+@media(max-width:768px){
+
+.related-products{
+
+width:94%;
+
+margin:5rem auto;
+}
+
+.related-products h2{
+
+font-size:1.7rem;
+letter-spacing:1px;
+}
+
+.related-products .products-grid{
+
+grid-template-columns:1fr;
+
+gap:1.5rem;
+}
+}

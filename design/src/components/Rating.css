@@ -1,0 +1,70 @@
+/* ==========================================
+   RATING
+========================================== */
+
+.rating{
+display:flex;
+align-items:center;
+gap:.75rem;
+
+margin:.5rem 0 1rem;
+}
+
+.stars{
+display:flex;
+align-items:center;
+gap:4px;
+
+color:#c8a96a;
+
+font-size:.95rem;
+}
+
+.rating small{
+font-size:.8rem;
+letter-spacing:1px;
+text-transform:uppercase;
+
+color:#777;
+}
+
+/* Hover animation */
+
+.stars svg{
+transition:.25s ease;
+}
+
+.rating:hover .stars svg{
+transform:scale(1.08);
+}
+
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .stars{
+color:#d9b36b;
+}
+
+body.dark .rating small{
+color:#bdbdbd;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.rating{
+justify-content:center;
+}
+
+.rating small{
+font-size:.75rem;
+}
+
+.stars{
+font-size:.9rem;
+}
+}

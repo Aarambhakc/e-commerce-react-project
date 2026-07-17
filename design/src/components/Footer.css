@@ -1,0 +1,220 @@
+/* ===================================
+   FOOTER
+=================================== */
+
+.footer {
+  background: #111;
+  color: #f5f3ef;
+  margin-top: 7rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-top {
+  width: min(92%, 1400px);
+  margin: auto;
+  padding: 6rem 0;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* ===================================
+   BRAND
+=================================== */
+
+.footer-brand h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.footer-brand p {
+  color: #bcbcbc;
+  line-height: 1.9;
+  max-width: 360px;
+  font-size: 0.97rem;
+}
+
+/* ===================================
+   HEADINGS
+=================================== */
+
+.footer-links h3,
+.footer-newsletter h3 {
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #b89a60;
+  margin-bottom: 1.8rem;
+}
+
+/* ===================================
+   LINKS
+=================================== */
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #d2d2d2;
+  text-decoration: none;
+  transition: .35s ease;
+  width: fit-content;
+  position: relative;
+  font-size: .95rem;
+}
+
+.footer-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: #b89a60;
+  transition: .35s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-links a:hover::after {
+  width: 100%;
+}
+
+/* ===================================
+   NEWSLETTER
+=================================== */
+
+.footer-newsletter p {
+  color: #bdbdbd;
+  line-height: 1.9;
+  margin-bottom: 1.8rem;
+  font-size: .95rem;
+}
+
+.newsletter-box {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.12);
+  transition: .35s;
+}
+
+.newsletter-box:focus-within {
+  border-color: #b89a60;
+  box-shadow: 0 0 0 3px rgba(184,154,96,.12);
+}
+
+.newsletter-box input {
+  flex: 1;
+  padding: 1rem 1.2rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: .95rem;
+}
+
+.newsletter-box input::placeholder {
+  color: #888;
+}
+
+.newsletter-box button {
+  padding: 1rem 1.6rem;
+  border: none;
+  cursor: pointer;
+  background: #b89a60;
+  color: white;
+  letter-spacing: 1px;
+  transition: .35s;
+  font-size: .9rem;
+}
+
+.newsletter-box button:hover {
+  background: #cfb17a;
+}
+
+/* ===================================
+   BOTTOM
+=================================== */
+
+.footer-bottom {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255,255,255,.08);
+  color: #8d8d8d;
+  font-size: .88rem;
+  letter-spacing: 1px;
+}
+
+/* ===================================
+   RESPONSIVE
+=================================== */
+
+@media (max-width:1100px){
+
+.footer-top{
+grid-template-columns:1fr 1fr;
+gap:3rem;
+}
+
+}
+
+@media (max-width:768px){
+
+.footer{
+margin-top:5rem;
+}
+
+.footer-top{
+grid-template-columns:1fr;
+padding:4rem 0;
+gap:2.8rem;
+}
+
+.footer-brand{
+text-align:center;
+}
+
+.footer-brand p{
+max-width:100%;
+}
+
+.footer-links{
+align-items:center;
+}
+
+.footer-newsletter{
+text-align:center;
+}
+
+.newsletter-box{
+flex-direction:column;
+border:none;
+gap:1rem;
+}
+
+.newsletter-box input{
+width:100%;
+border:1px solid rgba(255,255,255,.15);
+padding:1rem;
+}
+
+.newsletter-box button{
+width:100%;
+}
+
+.footer-bottom{
+padding:1.5rem;
+}
+
+}
