@@ -1,38 +1,36 @@
 import { useContext } from "react";
 import { WishlistContext } from "../context/WishlistContext";
 import { Link } from "react-router-dom";
-import "./Wishlist.css";
 import { toast } from "react-toastify";
+import "./Wishlist.css";
 
 function Wishlist() {
-  const {
-    wishlist,
-    removeFromWishlist,
-  } = useContext(WishlistContext);
+  const { wishlist, removeFromWishlist } =
+    useContext(WishlistContext);
 
-  if (wishlist.length === 0) {
+  if (!wishlist.length) {
     return (
       <div className="empty-wishlist">
 
-  <p className="wishlist-tag">
-    Curated Selection
-  </p>
+        <p className="wishlist-tag">
+          Curated Selection
+        </p>
 
-  <h1>Your Wishlist</h1>
+        <h1>Your Wishlist</h1>
 
-  <p>
-    Save the pieces you admire and revisit
-    them whenever inspiration calls.
-  </p>
+        <p>
+          Save the pieces you admire and revisit
+          them whenever inspiration calls.
+        </p>
 
-  <Link
-    to="/product"
-    className="wishlist-btn"
-  >
-    Explore Collection
-  </Link>
+        <Link
+          to="/product"
+          className="explore-btn"
+        >
+          Explore Collection
+        </Link>
 
-</div>
+      </div>
     );
   }
 
@@ -48,23 +46,28 @@ function Wishlist() {
       </div>
 
       <div className="wishlist-grid">
+
         {wishlist.map((item) => (
+
           <div
             key={item.id}
             className="wishlist-card"
           >
+
             <img
               src={item.image}
               alt={item.title}
+              loading="lazy"
             />
 
             <h3>{item.title}</h3>
 
             <p className="wishlist-price">
-              ${item.price}
+              ${item.price.toFixed(2)}
             </p>
 
             <div className="wishlist-buttons">
+
               <Link
                 to={`/product/${item.id}`}
                 className="view-btn"
@@ -73,17 +76,23 @@ function Wishlist() {
               </Link>
 
               <button
-  className="remove-btn"
-  onClick={() => {
-    removeFromWishlist(item.id);
-    toast.info("Removed from wishlist");
-  }}
->
-  Remove
-</button>
+                className="remove-btn"
+                onClick={() => {
+                  removeFromWishlist(item.id);
+                  toast.info(
+                    "Removed from wishlist"
+                  );
+                }}
+              >
+                Remove
+              </button>
+
             </div>
+
           </div>
+
         ))}
+
       </div>
 
     </div>

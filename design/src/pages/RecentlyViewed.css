@@ -1,70 +1,253 @@
-.recent-section {
-  width: 90%;
-  margin: 6rem auto;
+/* ==========================================
+   RECENTLY VIEWED
+========================================== */
+
+.recent-section{
+    width:min(92%,1400px);
+    margin:7rem auto;
 }
 
-.recent-header {
-  margin-bottom: 3rem;
+.recent-header{
+    text-align:center;
+    margin-bottom:4rem;
 }
 
-.recent-header p {
-  color: #b89a60;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+.recent-header p{
+
+    color:#b89a60;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-size:.82rem;
+
+    margin-bottom:1rem;
 }
 
-.recent-header h2 {
-  font-size: 2.5rem;
-  font-weight: 300;
+.recent-header h2{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:3rem;
+
+    font-weight:400;
+
+    color:#111;
 }
 
-.recent-grid {
-  display: grid;
-  grid-template-columns:
-    repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
+/* ==========================================
+   GRID
+========================================== */
+
+.recent-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(260px,1fr));
+
+    gap:2rem;
 }
 
-.recent-card {
-  text-decoration: none;
-  color: inherit;
-  background: white;
-  border: 1px solid #eee;
-  padding: 2rem;
-  text-align: center;
-  transition: 0.3s;
+/* ==========================================
+   CARD
+========================================== */
+
+.recent-card{
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:18px;
+
+    padding:2rem;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
 }
 
-.recent-card:hover {
-  transform: translateY(-8px);
-  box-shadow:
-    0 20px 40px
-    rgba(0,0,0,0.08);
+.recent-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.08);
 }
 
-.recent-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: contain;
-  margin-bottom: 1.5rem;
+/* ==========================================
+   IMAGE
+========================================== */
+
+.recent-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:contain;
+
+    background:#f8f8f8;
+
+    border-radius:14px;
+
+    padding:14px;
+
+    transition:.35s;
+
+    margin-bottom:1.8rem;
 }
 
-.recent-card h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
+.recent-card:hover img{
+
+    transform:scale(1.05);
 }
 
-.recent-card span {
-  color: #b89a60;
-  font-size: 1.1rem;
+/* ==========================================
+   TITLE
+========================================== */
+
+.recent-card h3{
+
+    font-size:1.05rem;
+
+    font-weight:500;
+
+    text-align:center;
+
+    color:#111;
+
+    line-height:1.6;
+
+    margin-bottom:1rem;
+
+    min-height:55px;
 }
 
-body.dark .recent-card {
-  background: #1b1b1b;
-  border-color: #333;
+/* ==========================================
+   PRICE
+========================================== */
+
+.recent-card span{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:1.5rem;
+
+    color:#b89a60;
+
+    font-weight:600;
 }
 
-body.dark .recent-card h3 {
-  color: white;
+/* ==========================================
+   DARK MODE
+========================================== */
+
+body.dark .recent-header h2{
+
+    color:#fff;
+}
+
+body.dark .recent-card{
+
+    background:#1b1b1b;
+
+    border-color:#333;
+}
+
+body.dark .recent-card img{
+
+    background:#262626;
+}
+
+body.dark .recent-card h3{
+
+    color:#fff;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:900px){
+
+.recent-header h2{
+
+    font-size:2.5rem;
+}
+
+.recent-grid{
+
+    grid-template-columns:
+        repeat(2,1fr);
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.recent-section{
+
+    width:95%;
+}
+
+.recent-header{
+
+    margin-bottom:3rem;
+}
+
+.recent-header h2{
+
+    font-size:2rem;
+}
+
+.recent-grid{
+
+    grid-template-columns:1fr;
+}
+
+.recent-card img{
+
+    height:220px;
+}
+
+}
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media(max-width:480px){
+
+.recent-card{
+
+    padding:1.5rem;
+}
+
+.recent-card img{
+
+    height:180px;
+}
+
+.recent-card span{
+
+    font-size:1.3rem;
+}
+
 }

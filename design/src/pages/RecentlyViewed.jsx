@@ -4,11 +4,9 @@ import { RecentlyViewedContext } from "../context/RecentlyViewedContext";
 import "./RecentlyViewed.css";
 
 function RecentlyViewed() {
-  const { recent } = useContext(
-    RecentlyViewedContext
-  );
+  const { recent } = useContext(RecentlyViewedContext);
 
-  if (recent.length === 0) return null;
+  if (!recent.length) return null;
 
   return (
     <section className="recent-section">
@@ -27,13 +25,12 @@ function RecentlyViewed() {
             <img
               src={item.image}
               alt={item.title}
+              loading="lazy"
             />
 
             <h3>{item.title}</h3>
 
-            <span>
-              ${item.price}
-            </span>
+            <span>${item.price.toFixed(2)}</span>
           </Link>
         ))}
       </div>

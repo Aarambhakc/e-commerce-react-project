@@ -120,7 +120,7 @@
 }
 
 .quantity-box{
-    margin-top:1rem;
+    margin-top:2rem;
     display:flex;
     align-items:center;
 }
@@ -289,7 +289,7 @@
 
 .clear-btn{
 
-    margin-top:1rem;
+    margin-top:2rem;
 
     background:white;
 
@@ -350,7 +350,6 @@
 
 .continue-btn{
 
-    margin-top:2rem;
 
     padding:1rem 3rem;
 
